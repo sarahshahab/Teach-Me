@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDECE9"
+    tools:context=".berhasilmurid">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="369dp"
+        android:layout_marginEnd="0dp"
+        android:text="@string/pendaftaran_sebagai_murid_telab_berhasil_dilakukan_aktivasikan_akun_anda_dengan_email_yang_sudah_terdaftar"
+        android:textAlignment="center"
+        android:textColor="#323505"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="63dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="165dp"
+        app:srcCompat="@drawable/ic_verified_user_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="263dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Selamat!"
+        android:textColor="#5E7F19"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="200dp"
+        android:background="#5E7F19"
+        android:onClick="berhasil"
+        android:text="@string/sign_in"
+        android:textColor="#EDECE9" />
+
+</RelativeLayout>

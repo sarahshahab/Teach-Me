@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDECE9"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="517dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="104dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/menuCari"
+                android:layout_width="89dp"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="276dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:onClick="cariguru"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_cariguru" />
+
+            <TextView
+                android:id="@+id/txt_cari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="290dp"
+                android:layout_marginTop="115dp"
+                android:text="Cari Guru"
+                android:textColor="#899231" />
+
+            <ImageButton
+                android:id="@+id/menuProfil"
+                android:layout_width="89dp"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="148dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:onClick="profil"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_profile" />
+
+            <TextView
+                android:id="@+id/txt_profil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="116dp"
+                android:text="@string/profil"
+                android:textColor="#899231" />
+
+            <ImageButton
+                android:id="@+id/menuHome"
+                android:layout_width="89dp"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="21dp"
+                android:background="@android:color/transparent"
+                android:onClick="beranda"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_home" />
+
+            <TextView
+                android:id="@+id/txt_beranda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="116dp"
+                android:text="Beranda"
+                android:textColor="#899231" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="158dp">
+
+            <ImageButton
+                android:id="@+id/menuPresensi"
+                android:layout_width="89dp"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="277dp"
+                android:layout_marginTop="22dp"
+                android:background="@android:color/transparent"
+                android:onClick="presensi"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_presensi" />
+
+            <TextView
+                android:id="@+id/txt_presensi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="257dp"
+                android:layout_marginTop="117dp"
+                android:text="Presensi Pertemuan"
+                android:textColor="#899231" />
+
+            <ImageButton
+                android:id="@+id/menuNotifikasi"
+                android:layout_width="89dp"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="149dp"
+                android:layout_marginTop="21dp"
+                android:background="@android:color/transparent"
+                android:onClick="notifikasi"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_notifications_none_black_24dp" />
+
+            <TextView
+                android:id="@+id/txt_notifikasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="163dp"
+                android:layout_marginTop="117dp"
+                android:text="Notifikasi"
+                android:textColor="#899231" />
+
+            <ImageButton
+                android:id="@+id/menuKonseling"
+                android:layout_width="89dp"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="21dp"
+                android:background="@android:color/transparent"
+                android:onClick="konsultasi"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_chat_black_24dp" />
+
+            <TextView
+                android:id="@+id/txt_konseling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="117dp"
+                android:text="Konseling Online"
+                android:textColor="#899231" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <ImageButton
+                android:id="@+id/menuLogout"
+                android:layout_width="89dp"
+                android:layout_height="86dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="149dp"
+                android:layout_marginTop="21dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/logout" />
+
+            <TextView
+                android:id="@+id/txt_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="173dp"
+                android:layout_marginTop="117dp"
+                android:text="Keluar"
+                android:textColor="#899231" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:background="#98D4AF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="88dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginBottom="15dp"
+                android:text="Menu"
+                android:textAlignment="center"
+                android:textColor="#777739"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

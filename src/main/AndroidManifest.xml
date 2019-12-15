@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.teachme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icons"
+        android:label="Teach Me"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".selesaiabsen"></activity>
+        <activity android:name=".reenter" />
+        <activity android:name=".lupapassword" />
+        <activity android:name=".pengaturanmurid" />
+        <activity android:name=".settinguru" />
+        <activity android:name=".peringatan" />
+        <activity android:name=".permintaanajar" />
+        <activity android:name=".notifikasiguru" />
+        <activity android:name=".gurukemurid" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".artikelberitatiga" />
+        <activity android:name=".artikelberitadua" />
+        <activity android:name=".profilbresley" />
+        <activity android:name=".profilmaura" />
+        <activity android:name=".profilclara" />
+        <activity android:name=".profiladam" />
+        <activity android:name=".profilashley" />
+        <activity android:name=".profilrosa" />
+        <activity android:name=".profilanya" />
+        <activity android:name=".profilmarcus" />
+        <activity android:name=".pesanjohnny4" />
+        <activity android:name=".pesanjohnny3" />
+        <activity android:name=".pesanjohnny2" />
+        <activity android:name=".pesanmaria" />
+        <activity android:name=".ProfilMaria" />
+        <activity android:name=".pesanjohnny" />
+        <activity android:name=".chat" />
+        <activity android:name=".profilguru" />
+        <activity android:name=".artikelberita" />
+        <activity android:name=".PresensiMurid" />
+        <activity android:name=".notifikasi" />
+        <activity android:name=".profilpengguna_murid" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".registrasimuridke1" />
+        <activity android:name=".cariguru" />
+        <activity android:name=".berhasilguru" />
+        <activity android:name=".berhasilmurid" />
+        <activity android:name=".registrasimurid2" />
+        <activity android:name=".registrasimurid1" />
+        <activity android:name=".FilterCariGuru" />
+        <activity android:name=".registrasigurid2" />
+        <activity android:name=".RegistrasiGuru1" />
+        <activity android:name=".Login" />
+        <activity android:name=".halamanawal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Registrasi" />
+    </application>
+
+</manifest>

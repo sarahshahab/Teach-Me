@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edece9"
+    tools:context=".settinguru">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="#98D4AF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="61dp"
+                android:layout_marginBottom="8dp"
+                android:text="Pengaturan"
+                android:textAlignment="center"
+                android:textColor="#777739"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="682dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="414dp"
+                android:layout_height="1343dp"
+                android:baselineAligned="false">
+
+                <EditText
+                    android:id="@+id/editText10"
+                    android:layout_width="192dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="92dp"
+                    android:layout_marginEnd="12dp"
+                    android:ems="10"
+                    android:hint="@string/alamat1"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:textColor="#98D4AF"
+                    tools:ignore="LabelFor,RelativeOverlap"
+                    tools:targetApi="cupcake" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="144dp"
+                    android:layout_marginTop="429dp"
+                    android:text="@string/smp"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="429dp"
+                    android:text="@string/sd"
+                    android:textColor="#68701E" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="295dp"
+                    android:text="@string/pendidikan_terakhir"
+                    android:textAlignment="center"
+                    android:textColor="#68701E"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner13"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="155dp"
+                    android:layout_marginTop="330dp"
+                    android:entries="@array/TingkatSekolahTerakhir" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="394dp"
+                    android:text="@string/tingkat_pendidikan_yang_diajarkan"
+                    android:textAlignment="center"
+                    android:textColor="#68701E"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="214dp"
+                    android:text="@string/nomor_hp"
+                    android:textAlignment="center"
+                    android:textColor="#68701E"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="101dp"
+                    android:text="@string/masukkan_alamat"
+                    android:textAlignment="center"
+                    android:textColor="#68701E"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="157dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#899231"
+                    android:text="@string/lanjut"
+                    android:textColor="#edece9" />
+
+                <TextView
+                    android:id="@+id/KelasAjar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="500dp"
+                    android:text="Kelas Pendidikan yang Diajarkan:"
+                    android:textColor="#68701E"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="86dp"
+                    android:layout_marginBottom="881dp"
+                    android:text="SMA"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginBottom="771dp"
+                    android:text="Tingkat SD"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginBottom="729dp"
+                    android:text="Kelas 8"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginBottom="688dp"
+                    android:text="Kelas 9"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="58dp"
+                    android:layout_marginBottom="728dp"
+                    android:text="Kelas 11"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="58dp"
+                    android:layout_marginBottom="689dp"
+                    android:text="Kelas 12"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginBottom="770dp"
+                    android:text="Kelas 7"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="541dp"
+                    android:layout_marginEnd="58dp"
+                    android:text="Kelas 10"
+                    android:textColor="#68701E" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginBottom="647dp"
+                    android:text="Subject yang Diajarkan:"
+                    android:textColor="#68701E"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="557dp"
+                    android:text="Bahasa Indonesia"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="517dp"
+                    android:text="Bahasa Inggris"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="477dp"
+                    android:text="@string/matematika"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="438dp"
+                    android:text="@string/fisika"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="248dp"
+                    android:layout_marginBottom="597dp"
+                    android:text="@string/kimia"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="248dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginBottom="558dp"
+                    android:text="@string/biologi"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="248dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginBottom="522dp"
+                    android:text="Ekonomi"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox19"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="248dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginBottom="486dp"
+                    android:text="Geografi"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="248dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginBottom="448dp"
+                    android:text="Sejarah"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="247dp"
+                    android:layout_marginBottom="412dp"
+                    android:text="Sosiologi"
+                    android:textColor="#68701E" />
+
+                <CheckBox
+                    android:id="@+id/checkBox11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="597dp"
+                    android:text="Tematik SD"
+                    android:textColor="#68701E" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginBottom="392dp"
+                    android:text="@string/deskripsi_singkat"
+                    android:textColor="#68701E"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/fillEmail"
+                    android:layout_width="379dp"
+                    android:layout_height="62dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="320dp"
+                    android:ems="10"
+                    android:hint="Deskripsikan mengapa anda mendaftar menjadi pengajar di Teach Me dan bagaima cara anda bekerja."
+                    android:inputType="textPersonName"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="164dp"
+                    android:layout_height="163dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginBottom="93dp"
+                    tools:srcCompat="@tools:sample/avatars[0]" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginBottom="279dp"
+                    android:text="@string/foto"
+                    android:textColor="#68701E"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="61dp"
+                    android:layout_marginBottom="155dp"
+                    android:background="#899231"
+                    android:text="Pilih Gambar"
+                    android:textColor="#edece9" />
+
+                <EditText
+                    android:id="@+id/editText11"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="207dp"
+                    android:layout_marginEnd="12dp"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:text="@string/_62"
+                    android:textColor="#68701E"
+                    tools:ignore="LabelFor,RelativeOverlap"
+                    tools:targetApi="cupcake" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="37dp"
+                    android:text="Nama:"
+                    android:textColor="#68701E"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="17dp"
+                    android:ems="10"
+                    android:hint="Nama"
+                    android:inputType="textPersonName" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

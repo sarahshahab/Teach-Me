@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDECE9"
+    tools:context=".notifikasi">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="323dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="407dp">
+
+            <TextView
+                android:id="@+id/tiganov"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="45dp"
+                android:text="13 Nov"
+                android:textColor="#323505" />
+
+            <ImageView
+                android:id="@+id/img_cari"
+                android:layout_width="52dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginBottom="37dp"
+                app:srcCompat="@drawable/ic_cari" />
+
+            <TextView
+                android:id="@+id/pembahasan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="46dp"
+                android:layout_marginEnd="16dp"
+                android:text="Pembahasan kontrak ajar"
+                android:textColor="#323505"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="460dp"
+                android:background="#5e7f19" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="#98D4AF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="57dp"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="sans-serif"
+                android:text="Notifikasi"
+                android:textAlignment="center"
+                android:textColor="#777739"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="35dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="370dp"
+                android:background="@android:color/transparent"
+                android:onClick="menu"
+                app:srcCompat="@drawable/ic_menu" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="206dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="408dp">
+
+            <TextView
+                android:id="@+id/tigabelasnov"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="45dp"
+                android:text="13 Nov"
+                android:textColor="#323505" />
+
+            <ImageView
+                android:id="@+id/kontak"
+                android:layout_width="52dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginBottom="32dp"
+                app:srcCompat="@drawable/ic_import_contacts_black_24dp" />
+
+            <TextView
+                android:id="@+id/pertemuansatu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="46dp"
+                android:layout_marginEnd="23dp"
+                android:text="Pertemuan pertama"
+                android:textColor="#323505"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="581dp"
+                android:background="#5e7f19" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="87dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="407dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="45dp"
+                android:text="18 Nov"
+                android:textColor="#323505" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="52dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginBottom="37dp"
+                app:srcCompat="@drawable/ic_import_contacts_black_24dp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="36dp"
+                android:text="Pertemuan kedua"
+                android:textColor="#323505"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="342dp"
+        android:background="#5e7f19" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="51dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Bulan Ini"
+        android:textColor="#68701E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

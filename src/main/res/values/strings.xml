@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">teachme</string>
+    <string name="tentor_of_the_month">Tentor of The Month:</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="teach_me">Teach Me</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="artikel">Artikel:</string>
+    <string name="todo5">TODO</string>
+    <string name="todo12">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="todo9">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="todo11">TODO</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="daftar">Daftar</string>
+    <string name="sebagai_siapa_anda_mendaftar">Sebagai siapa anda mendaftar?</string>
+    <string name="todo14">TODO</string>
+    <string name="todo15">TODO</string>
+    <string name="guru">Guru</string>
+    <string name="murid">Murid</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masukkan_alamat">Masukkan alamat :</string>
+    <string name="_62">+62</string>
+    <string name="nomor_hp">Nomor hp :</string>
+    <string name="sd_smp_sma_perguruan_tinggi">SD/SMP/SMA/Perguruan tinggi</string>
+    <string name="tingkat_kelas">Tingkat kelas :</string>
+    <string name="jurusan">Jurusan :</string>
+    <string name="tingkat_sekolah">Tingkat sekolah :</string>
+    <string name="alamat">Alamat:</string>
+    <string name="kelas">Kelas:</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="profil">Profil</string>
+    <string name="pelajaran_yang_dibutuhkan">Pelajaran Yang Dibutuhkan:</string>
+    <string name="deskripsi_singkat">Deskripsi Singkat:</string>
+    <string name="fisika">Fisika</string>
+    <string name="nomor_handphone">Nomor Handphone:</string>
+    <string name="biologi">Biologi</string>
+    <string name="pendidikan">Pendidikan:</string>
+    <string name="tik">TIK</string>
+    <string name="nama">Nama:</string>
+    <string name="kimia">Kimia</string>
+    <string name="todo17">TODO</string>
+    <string name="matematika">Matematika</string>
+    <string name="todo18">TODO</string>
+    <string name="todo19">TODO19</string>
+    <string name="masuk">Masuk</string>
+    <string name="halo_user">Halo, User!</string>
+    <string name="anda_mendaftar_sebagai">Anda Mendaftar Sebagai:</string>
+    <string name="todo20">TODO20</string>
+    <string name="lengkapi_informasi_anda_sebelum_mendaftar_menjadi_tenaga_ajar_teach_me">Lengkapi informasi anda sebelum mendaftar menjadi tenaga ajar Teach Me.</string>
+    <string name="alamat1">Alamat</string>
+    <string name="pelajaran">Pelajaran :</string>
+    <string name="tarif">Tarif:</string>
+    <string name="filter">Filter</string>
+    <string name="error">Error</string>
+    <string name="ok">Ok</string>
+    <string name="smp">SMP</string>
+    <string name="sd">SD</string>
+    <string name="pendidikan_terakhir">Pendidikan Terakhir:</string>
+    <string name="tingkat_pendidikan_yang_diajarkan">Tingkat Pendidikan yang Diajakar:</string>
+    <string name="foto">Foto:</string>
+    <string name="can_not">Can Not Create New Account</string>
+    <string name="invalid_account">Invalid Account</string>
+    <string name="username_exist">Username Exist</string>
+    <string name="tempat_les">Tempat les :</string>
+    <string name="lengkapi_informasi_anda_sebelum_mendaftar_menjadi_pengguna_teach_me">Lengkapi informasi anda sebelum mendaftar menjadi pengguna Teach Me.</string>
+    <string name="pendaftaran_sebagai_murid_telab_berhasil_dilakukan_aktivasikan_akun_anda_dengan_email_yang_sudah_terdaftar">Pendaftaran sebagai murid telah berhasil dilakukan. Aktivasikan akun anda dengan email yang sudah terdaftar.</string>
+    <string name="selamat_user">Selamat, User!</string>
+    <string name="pendaftaran_sebagai_guru_telab_berhasil_dilakukan_berita_selanjutnya_akan_kami_hubungi_melalui_email_paling_lama_1x24_jam">Pendaftaran sebagai guru telah berhasil dilakukan. Berita selanjutnya akan kami hubungi melalui email paling lama 1x24 jam.</string>
+    <string name="guru_atau_murid">Guru atau Murid</string>
+    <string-array name="TingkatSekolah">
+        <item>Pilih Tingkat Sekolah</item>
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+    </string-array>
+    <string-array name="TingkatSekolahTerakhir">
+        <item>Pilih Tingkat Sekolah Terakhir</item>
+        <item>SMA</item>
+        <item>Sarjana S1</item>
+        <item>Sarjana S2</item>
+        <item>Sarjana S3</item>
+    </string-array>
+    <string-array name="JurusanTerakhir">
+        <item>Tidak Ada</item>
+        <item>IPA</item>
+        <item>IPS</item>
+        <item></item>
+    </string-array>
+    <string name="search">Search:</string>
+    <string name="selamat">Selamat!</string>
+    <string name="paket_1">Paket 1:</string>
+    <string name="type_your_message">Type your message</string>
+    <string-array name="daftar_pelajaran">
+        <item>Pilih Pelajaran</item>
+        <item>Tematik SD</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Inggris</item>
+        <item>Matematika</item>
+        <item>Fisika</item>
+        <item>Kimia</item>
+        <item>Biologi</item>
+        <item>Kimia</item>
+        <item>Ekonomi</item>
+        <item>Geografi</item>
+        <item>Sejarah</item>
+        <item>Sosiologi</item>
+    </string-array>
+    <string-array name="pilih_tarif">
+        <item>Pilih Tarif</item>
+        <item>Rp.600.000</item>
+        <item>Rp.1.800.0000</item>
+        <item>Rp.3.600.000</item>
+        <item>Rp.7.200.000</item>
+    </string-array>
+    <string-array name="jurusan_sekolah">
+        <item>Pilih Jurusan</item>
+        <item>IPA</item>
+        <item>IPS</item>
+    </string-array>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDECE9"
+    tools:context=".berhasilmurid">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="389dp"
+        android:layout_height="171dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="0dp"
+        android:text="@string/pendaftaran_sebagai_guru_telab_berhasil_dilakukan_berita_selanjutnya_akan_kami_hubungi_melalui_email_paling_lama_1x24_jam"
+        android:textAlignment="center"
+        android:textColor="#323505"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="93dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="144dp"
+        app:srcCompat="@drawable/ic_verified_user_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="219dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/selamat"
+        android:textAlignment="center"
+        android:textColor="#5E7F19"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="214dp"
+        android:background="#5E7F19"
+        android:onClick="berhasil"
+        android:text="@string/sign_in"
+        android:textColor="#EDECE9" />
+
+</RelativeLayout>
